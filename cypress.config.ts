@@ -1,0 +1,12 @@
+import { defineConfig } from "cypress";
+
+export default defineConfig({
+  e2e: {
+    defaultCommandTimeout: 60000,
+    pageLoadTimeout: 60000,
+    setupNodeEvents(on, config) {
+      // implement node event listeners here
+      
+    },
+  },
+});
